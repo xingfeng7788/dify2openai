@@ -38,8 +38,11 @@ npm install
 ```
 
 ### 启动服务
-
-使用 PM2 启动（推荐）：
+使用docker启动(推荐)
+```bash
+docker-compose up -d --build
+```
+使用 PM2 启动：
 ```bash
 pm2 start ecosystem.config.js
 ```
