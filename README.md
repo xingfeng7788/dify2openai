@@ -472,9 +472,6 @@ curl http://localhost:3099/v1/chat/completions \
 - **安全性**：请妥善保管您的 `API_KEY`，不要泄露给无关人员。
 
 ---
-## 联系
-
-WeChat：**`AOKIEO`** ｜ Mail: **`dev@orence.ai`**
 
 ## License
 
