@@ -439,7 +439,7 @@ async function handleRequest(req, res, config, requestId, startTime) {
             usage: usageData,
             system_fingerprint: "fp_2f57f81c11",
           };
-          const jsonResponse = JSON.stringify(formattedResponse, null, 2);
+          // const jsonResponse = JSON.stringify(formattedResponse, null, 2);
 
           // 记录发送的响应
           log("info", "发送响应", {
@@ -448,7 +448,7 @@ async function handleRequest(req, res, config, requestId, startTime) {
           });
 
           res.set("Content-Type", "application/json");
-          res.send(jsonResponse);
+          res.send(formattedResponse);
         }
       });
     }
